@@ -17,13 +17,17 @@ Also remember to change the public recaptcha key changing the value of ***data-s
     <div class="g-recaptcha d-flex justify-content-center" data-sitekey="###">
 ```
 
-Run the following script to install ***package.json** dependencies
+Run the following script to install **package.json** dependencies
 ```bash
 npm i
 ```
 Run the following script to install **composer.json** dependencies
 ```bash
 composer i
+```
+Run the following script to bundle your files using webpack
+```bash
+npx webpack
 ```
 ### Deployment
 
