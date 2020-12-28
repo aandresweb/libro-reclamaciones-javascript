@@ -1,7 +1,7 @@
 # Libro de reclamaciones 
 ### Usage
 
-Search the ***"src/js/app.js"*** hange the value of the following constants to configure the identity of the page
+Search the ***"src/js/app.js"*** file and change the value of the following constants to configure the identity of the page
 ```javascript
 const MAIN_COLOR        =       '#000';
 const COMPANY_NAME      =       'Ejemplo';
