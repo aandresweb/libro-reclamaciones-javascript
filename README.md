@@ -4,6 +4,22 @@ Clone the repository
 ```bash
 git clone https://github.com/aandresweb/libro-reclamaciones-javascript
 ```
+Search the ***"app/Mail.php"*** file and change the username, password and host to send mails
+```php
+//Server settings
+$mail->SMTPDebug = 0;                                               // Enable verbose debug output
+$mail->isSMTP();                                                    // Set mailer to use SMTP
+$mail->Host       = 'mail.crearperu.com';                           // Specify main and backup SMTP servers
+$mail->SMTPAuth   = true;                                           // Enable SMTP authentication
+$mail->Username   = 'crearperuhome@crearperu.com';                  // SMTP username
+$mail->Password   = "oG#%7UqbJ2S~";                                 // SMTP password
+$mail->SMTPSecure = 'tls';                                          // Enable TLS encryption, `ssl` also accepted
+$mail->Port       = 26;                                             // TCP port to connect to
+
+//Recipients
+$mail->setFrom('crearperuhome@crearperu.com', $_POST['company_name'] . " WEB");
+```
+
 Search the ***"src/js/app.js"*** file and change the value of the following constants to configure the identity of the page
 ```javascript
 const MAIN_COLOR        =       '#000';
