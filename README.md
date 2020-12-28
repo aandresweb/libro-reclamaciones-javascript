@@ -1,4 +1,7 @@
 # Libro de reclamaciones 
-### Introducción
+### Introduction
+
+Run the following scripts to install the dependencies
+
 ```bash
 pip install foobar
