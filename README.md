@@ -9,15 +9,15 @@ Search the ***"app/Mail.php"*** file and change the username, password and host 
 //Server settings
 $mail->SMTPDebug = 0;                                               // Enable verbose debug output
 $mail->isSMTP();                                                    // Set mailer to use SMTP
-$mail->Host       = 'mail.crearperu.com';                           // Specify main and backup SMTP servers
+$mail->Host       = 'mail.host.com';                                // Specify main and backup SMTP servers
 $mail->SMTPAuth   = true;                                           // Enable SMTP authentication
-$mail->Username   = 'crearperuhome@crearperu.com';                  // SMTP username
-$mail->Password   = "oG#%7UqbJ2S~";                                 // SMTP password
+$mail->Username   = 'example@mail.com';                             // SMTP username
+$mail->Password   = "password";                                     // SMTP password
 $mail->SMTPSecure = 'tls';                                          // Enable TLS encryption, `ssl` also accepted
 $mail->Port       = 26;                                             // TCP port to connect to
 
 //Recipients
-$mail->setFrom('crearperuhome@crearperu.com', $_POST['company_name'] . " WEB");
+$mail->setFrom('example@mail.com', $_POST['company_name'] . " WEB");
 ```
 
 Search the ***"src/js/app.js"*** file and change the value of the following constants to configure the identity of the page
