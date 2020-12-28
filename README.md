@@ -12,6 +12,13 @@ const EMAIL_RECIPIENT   =       'example@mail.com';
 const RECAPTCHA_SECRET  =       '###';
 ```
 
+Also remember to change the public recaptcha key in "***src/index.html***" file in 139 line
+```html
+<div class="mb-3 text-center">
+    <div class="g-recaptcha d-flex justify-content-center" data-sitekey="###">
+</div>
+```
+
 Run the following script to install ***package.json** dependencies
 ```bash
 npm i
