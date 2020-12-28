@@ -1,7 +1,7 @@
 # Libro de reclamaciones 
 ### Introduction
 
-Run the following scripts to install the dependencies
-
+Run the following scripts to install package.json dependencies 
 ```bash
-pip install foobar
+npm i
+```
