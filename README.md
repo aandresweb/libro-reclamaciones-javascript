@@ -1,5 +1,5 @@
 # Libro de reclamaciones 
-### Usage
+### Usage and installation
 
 Search the ***"src/js/app.js"*** file and change the value of the following constants to configure the identity of the page
 ```javascript
@@ -27,7 +27,7 @@ composer i
 ```
 ### Deployment
 
-to deploy the website you must upload the following files and folders
+To deploy the website you must upload the following files and folders
  - index.html
  - bundle.js
  - app
