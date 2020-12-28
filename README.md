@@ -25,7 +25,7 @@ Run the following script to install **composer.json** dependencies
 ```bash
 composer i
 ```
-Run the following script to bundle your files using webpack
+Finally run the following script to bundle your files using webpack
 ```bash
 npx webpack
 ```
