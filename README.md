@@ -25,3 +25,10 @@ Run the following script to install **composer.json** dependencies
 ```bash
 composer i
 ```
+### Deployment
+
+to deploy the website you must upload the following files and folders
+ - index.html
+ - bundle.js
+ - app
+ - vendor
